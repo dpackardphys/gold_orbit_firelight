@@ -3,6 +3,9 @@
 
 *Group members: Karina Alvarez, Douglas Packard, Karan Shah*
 
+## Introduction
+We decided to do our first data analysis project on mental health as a broad topic. We chose to study mental health due to its importance in society overall, and for  people as individuals. As residents of the Chicago area, we were particularly interested in seeing what the data says about the socio-economic environment which has shaped our lives. 
+
 ## Research Questions to Answer
 1. What can the data tell us mental health in Chicago?
 2. What does the data tell us about school and community safety in Chicago?
