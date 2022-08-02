@@ -23,4 +23,3 @@ We decided to do our first data analysis project on mental health as a broad top
 * Karan: API,  project management
 * All: Statistical analysis
 
-* Hello does this work?
