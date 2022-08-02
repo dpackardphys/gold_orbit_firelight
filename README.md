@@ -18,7 +18,7 @@ We decided to do our first data analysis project on mental health as a broad top
 * https://chicagohealthatlas.org/indicators/YRSAFP?topic=school-safety-rate
 
 ## Task Breakdown
-* Karina: matplotlib, data visualizations, presentation MC
+* Karina: matplotlib, data visualizations, presentation
 * Douglas: github, pandas
 * Karan: API,  project management
 * All: Statistical analysis
