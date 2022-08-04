@@ -1,0 +1,79 @@
+Layer,Name,GEOID,Population,Longitude,Latitude,VRSUR_2015-2019,VRSUR_2011-2015
+,,,,,,"Suicide mortality rate (per 100,000 population), 2015-2019","Suicide mortality rate (per 100,000 population), 2011-2015"
+Community area,Rogers Park,1,52772,-87.67017100,42.00963000,9.9,7.4
+Community area,Norwood Park,10,41109,-87.80345100,41.98524800,12.7,8.9
+Community area,Jefferson Park,11,26201,-87.77116500,41.97883600,11.8,15.5
+Community area,Forest Glen,12,19579,-87.75835800,41.99393800,3.5,7.3
+Community area,North Park,13,17522,-87.72357800,41.98365100,11.7,4.9
+Community area,Albany Park,14,48549,-87.72155800,41.96807800,9.2,6.6
+Community area,Portage Park,15,63038,-87.76340100,41.95404300,7.8,9.4
+Community area,Irving Park,16,51911,-87.72345700,41.95358900,7.2,8.4
+Community area,Dunning,17,43120,-87.80601500,41.94652200,12.3,7.8
+Community area,Montclare,18,14412,-87.79803300,41.92930600,15.4,7.4
+Community area,Belmont Cragin,19,78151,-87.76550200,41.92727500,6.9,7.6
+Community area,West Ridge,2,77139,-87.69501700,42.00158300,7.1,7.2
+Community area,Hermosa,20,24127,-87.73474100,41.92435300,2.9,3.2
+Community area,Avondale,21,36245,-87.71121900,41.93867300,6.9,4.8
+Community area,Logan Square,22,71742,-87.69914900,41.92276800,4.2,7.6
+Community area,Humboldt Park,23,53832,-87.72091700,41.90008000,5.8,7.0
+Community area,West Town,24,87942,-87.67635800,41.90121600,6.2,6.8
+Community area,Austin,25,96753,-87.76311700,41.89411300,5.0,4.9
+Community area,West Garfield Park,26,17423,-87.73023300,41.87860200,11.0,5.8
+Community area,East Garfield Park,27,19995,-87.70589200,41.87892300,0.0,5.7
+Community area,Near West Side,28,67817,-87.66351300,41.87401600,6.6,9.6
+Community area,North Lawndale,29,34817,-87.71721800,41.86019700,2.7,6.2
+Community area,Uptown,3,52255,-87.65589900,41.96582200,10.8,9.6
+Community area,South Lawndale,30,71402,-87.71400000,41.83909100,3.5,4.5
+Community area,Lower West Side,31,33716,-87.66757000,41.85027700,8.9,5.6
+Community area,Loop,32,39135,-87.62519400,41.87888100,12.4,8.9
+Community area,Near South Side,33,27044,-87.62034400,41.85719600,11.9,6.4
+Community area,Armour Square,34,13847,-87.63397600,41.84208300,3.0,2.4
+Community area,Douglas,35,17630,-87.61868000,41.83512200,13.2,9.0
+Community area,Oakland,36,4280,-87.60321700,41.82375400,0.0,0.0
+Community area,Fuller Park,37,2549,-87.63242700,41.80908200,0.0,8.2
+Community area,Grand Boulevard,38,24586,-87.61786000,41.81294700,1.8,4.5
+Community area,Kenwood,39,14716,-87.59618600,41.80891800,7.9,4.9
+Community area,Lincoln Square,4,40412,-87.68751300,41.97518200,6.3,8.1
+Community area,Washington Park,40,12709,-87.61793600,41.79235600,5.1,1.5
+Community area,Hyde Park,41,23914,-87.59230500,41.79408800,3.6,6.9
+Community area,Woodlawn,42,24630,-87.59492400,41.77887700,3.5,4.5
+Community area,South Shore,43,45611,-87.57279000,41.76158300,6.1,4.1
+Community area,Chatham,44,31804,-87.61596500,41.74020600,9.7,8.0
+Community area,Avalon Park,45,9359,-87.58634700,41.74419700,1.3,5.7
+Community area,South Chicago,46,25975,-87.55143500,41.74124300,3.0,4.6
+Community area,Burnside,47,2514,-87.59647000,41.72818100,0.0,0.0
+Community area,Calumet Heights,48,13085,-87.57272000,41.72967300,11.2,1.1
+Community area,Roseland,49,38934,-87.62336600,41.70658800,6.9,7.9
+Community area,North Center,5,35150,-87.68383900,41.94781100,8.5,5.0
+Community area,Pullman,50,6866,-87.59825200,41.70613100,9.4,6.6
+Community area,South Deering,51,14125,-87.57005800,41.69063900,2.8,7.2
+Community area,East Side,52,21529,-87.53490700,41.70730600,5.7,5.7
+Community area,West Pullman,53,25788,-87.63574500,41.67382000,4.7,7.4
+Community area,Riverdale,54,7229,-87.60284900,41.66013700,0.0,0.0
+Community area,Hegewisch,55,9884,-87.55680300,41.66818800,15.5,10.8
+Community area,Garfield Ridge,56,35352,-87.76424600,41.79618500,4.7,10.9
+Community area,Archer Heights,57,14282,-87.72636500,41.81087300,9.5,5.7
+Community area,Brighton Park,58,45141,-87.69885900,41.81736400,7.4,9.3
+Community area,McKinley Park,59,15927,-87.67250000,41.82992700,4.8,6.6
+Community area,Lake View,6,91836,-87.65600100,41.94423600,12.6,10.2
+Community area,Bridgeport,60,33593,-87.64878400,41.83615100,10.4,10.9
+Community area,New City,61,43510,-87.65917100,41.80901700,6.7,5.9
+Community area,West Elsdon,62,18249,-87.72421300,41.79297700,15.2,12.2
+Community area,Gage Park,63,39439,-87.69643300,41.79542900,3.9,6.3
+Community area,Clearing,64,24519,-87.76851700,41.77958200,9.9,12.3
+Community area,West Lawn,65,33543,-87.72692700,41.76977400,10.6,4.8
+Community area,Chicago Lawn,66,55789,-87.69566700,41.77184900,8.0,3.1
+Community area,West Englewood,67,29899,-87.66659800,41.77592600,5.3,2.5
+Community area,Englewood,68,24322,-87.64250200,41.77720100,5.0,5.6
+Community area,Greater Grand Crossing,69,31543,-87.61613900,41.76325100,5.7,5.8
+Community area,Lincoln Park,7,63433,-87.64949100,41.92269600,3.9,6.8
+Community area,Ashburn,70,41280,-87.70836300,41.74575600,6.2,6.0
+Community area,Auburn Gresham,71,44959,-87.65630500,41.74420300,7.2,3.7
+Community area,Beverly,72,19950,-87.67507200,41.71314800,12.3,11.9
+Community area,Washington Heights,73,25075,-87.64889700,41.71749500,3.3,6.4
+Community area,Mount Greenwood,74,18633,-87.71318900,41.69487600,16.1,14.4
+Community area,Morgan Park,75,21714,-87.66906200,41.68972900,7.0,9.7
+Community area,O'Hare,76,14416,-87.89369900,41.97569600,8.7,4.4
+Community area,Edgewater,77,47343,-87.66341900,41.98671900,11.1,9.4
+Community area,Near North Side,8,95467,-87.63331800,41.89961100,11.9,9.9
+Community area,Edison Park,9,11521,-87.81378000,42.00762700,9.8,3.2
