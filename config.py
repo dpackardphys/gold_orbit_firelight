@@ -1,0 +1,2 @@
+gkey = " "
+api_key = " "
