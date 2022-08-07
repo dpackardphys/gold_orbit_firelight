@@ -1,2 +1,1 @@
-gkey = " "
-api_key = " "
+gkey = ""
