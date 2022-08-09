@@ -4,23 +4,28 @@
 *Group members: Karina Alvarez, Douglas Packard, Karan Shah*
 
 ## Introduction
-
-## Discussion
+Reintroduce our project.
 
 ## Questions
-*
-*
-*
-*
-*
-*
+* Question 1
+* Question 2
+* Question 3
+* Question 4
+* Question 5
+* Question 6
+
+## Discussion
+Discuss how we got from the initial idea of the project and questions to what we ended up with. How we explored the data from Chicago Health Atlas to address 
+the questions we settled on.
 
 ## Analysis
+Describe how we analyzed the data in order to create visualizations and answer questions. Final visualizations go here.
 
 ## Results
+Present answers to our questions based on visualizations and statistical analysis.
 
 ## Conclusion
-
+Wrap things up.
 ___
 ### Introduction (old readme)
 We decided to do our first data analysis project on mental health as a broad topic. We chose to study mental health due to its importance in society overall, and for  people as individuals. As residents of the Chicago area, we were particularly interested in seeing what the data says about the socio-economic environment which has shaped our lives. 
