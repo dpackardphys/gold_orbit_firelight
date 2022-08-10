@@ -10,13 +10,13 @@ As residents of Chicago, we felt inclined to see what the we could discover abou
 
 
 ## Questions
-* How has the level of hardship changed over time in Chicago? 
-* Is there a correlation between the suicide mortality rates and vacant neighborhoods?
-* What can data tell us about school safety in Chicago?
-* What can data tell us about community safety in Chicago?
-* What correlations are there between various youth health indicators (diet, exercise, drinking)?
-* How has overall data coverage changed over time?
-* What other factors are strongly correlated?
+1. How has the level of hardship changed over time in Chicago? 
+2. Is there a correlation between the suicide mortality rates and vacant neighborhoods?
+3. What can data tell us about school safety in Chicago?
+4. What can data tell us about community safety in Chicago?
+5. What correlations are there between various youth health indicators (diet, exercise, drinking)?
+6. How has overall data coverage changed over time?
+7. What other factors are strongly correlated?
 
 ## Discussion
 We initially set out to explore what the data said about mental health and socio-economic factors in Chicago in general, by examining this topic from various different angles. We chose to focus in particular on the factors of school and community safety, suicide mortality, a composite measure called the Hardship Index, and physical health in relation to mental health. From the Chicago Health Atlas web-broswer interface (https://chicagohealthatlas.org/indicators) we were able to easily view individual health data indicators pertaining to these topics along with many others, visualized geographically across the many neighborhoods of Chicago, and plotted over time. There was also an easily accessible feature for downloading an individual indicator's data as a csv file.
@@ -33,10 +33,10 @@ Douglas initially wanted to study the data on various physical health indicators
 
 Faced with this limitation, Douglas decided to additionally try to study the coverage of the data as a whole. Exploring the Chicago Health Atlas data further through its API, he discovered there was a top-level division entirely devoted to Data Coverage, and investigated this more. While the data here did not provide information about the geographic coverage of different indicators (i.e. which had data for all neighborhoods and which only covered some), it did provide the opportunity to analyze the time-period coverage of all the indicators.
 
-Finally, having learned to use the API better, Douglas saw that it would help automate the retrieval of data across as many indicators as possible, and decided to use this to study indicator correlations more broadly.
+Finally, having learned to use the API better, Douglas saw that it would help automate the retrieval of data across as many indicators as possible, and decided to use this to study indicator correlations more broadly by generating a correlation matrix.
 
 ## Analysis
-We all used pandas and matplotlib to analyze and visualize our data. Karina additionally worked with gmaps to plot her harship data as a heatmap over the city of Chicago.
+We all used pandas and matplotlib to analyze and visualize our data. Karina additionally worked with gmaps to plot her harship data as a heatmap over the city of Chicago, after using pandas to find the change in hardship data between the two time periods for which it was given.
 
 ![Hardship Heatmap](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/hardship_heatmap_2.png)
 
@@ -44,8 +44,44 @@ Here yellow signifies areas with no major change in hardship between the time fr
 
 ![Bucktown and Wicker Heatmap](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/hardship_heatmap_1.png)
 
+The data on suicide mortality and vacancy was plotted together, and a linear regression was plotted over it, for the two same year-ranges as the hardship data. As the lines show, there does appear to be some negative correlation, but it is rather weak.
+
+![Suicide and Vacancy 2011-2015](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/suicide_vacant_2011.png)
+![Suicide and Vacancy 2015-2019](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/suicide_vacant_2019.png)
+
+Karan first plotted the household poverty and high school dropout rates together across the neighborhoods of Chicago. The peaks in the line plots of the two datasets appear to be frequently lined up, suggesting these indicators are indeed correlated with one another.
+
+![Household Poverty and HS Dropouts](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/DEEZ1.png)
+
+He next plotted the available community belonging and neighborhood safety data together. Here we can see the slopes of the lines always have the same sign, implying a direct correlation in their changes.
+
+![Community Belonging and Neighborhood Saftety](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/DEEZ2.png)
+
+Karan also plotted the data on school fights, school bullying, and overall school safety together.
+
+![School Violence and School Safety](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/DEEZ3.png)
+
+Doug first plotted the three youth health indicators over time. While there was little data on youth binge drinking, there were some visual similarities between the lines for youth diet and exercise that prompted further analysis.
+
+![Youth Health Indicators](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/youth_health_indicators.png)
+
+He then did a scatter plot of just these two, and plotted a linear regression over that. However, there were only seven data points to work with, and only a weak possible correlation was observed.
+
+![Youth Diet and Exercise](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/youthdietandexercise.png)
+
+With the data coverage information from the API, Douglas was able to plot the total count of indicators with data for each year from 1985 to 2020.
+
+![Indicator Coverage over Time](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/single_year_coverage_bars.png)
+
+Finally, with the data gathered from all 67 (out of 284) that had city-wide coverage between 2010-2020, we generated a correlation matrix. Then a list of 116 indicator-pairs with r-value in the range from 0.75 to 0.95 was generated (with the upper bound chosen to exclude the near-unity correlation between count-indicators and rate-indicators which provide essentially the same data). We did not have an opportunity to look into these results in depth, but from an abitrarily chosen pair in the list we did discover that arson and liver disease mortality are well-correlated!
+
 ## Results
-Present answers to our questions based on visualizations and statistical analysis.
+1. The level of hardship has been improving, worsening, and staying the same in all neighborhoods. Contradictory to what we thought, every part of the city did not increase in the level of hardship, and some areas even improved.
+2. Based on the Suicide Mortality vs Vacancy scatter plots, there is slight correlation between suicide mortality rates and vacant neighborhoods. There is not enough of a correlation that we would say vacant neighborhoods directly cause greater or lesser suicide mortality rates.
+3. Poverty appears to play a role in the mental well being of students. The plot shows high poverty rates tend to line up with a high number of high school dropouts.
+4. The data shows that the less safe a person feels in their neighborhood, the less belonging they feel to their community.
+5. There is a very weak correlation between youth diet and exercise, and not enough data on youth binge drinking.
+6. After a steady level from 2000 to 2009 (and very low coverage prior to that), there was a distinct increase in indicator coverage from 2009 to 2017, but a drop-off since then, with 2020 falling back to 2012 levels.
 
 ## Conclusion
 Wrap things up.
@@ -57,7 +93,7 @@ We decided to do our first data analysis project on mental health as a broad top
 1. What can the data tell us mental health in Chicago?
 2. What does the data tell us about school and community safety in Chicago?
 3. Is there correlation between suicide/mortality rates and Hardship Index (composite score of unemployment, age dependency, education, per capita income, crowded housing, and poverty)?
-4. How are physical health factors (lead poisoning, pollution, diet & exercise) related to mental health factors (Behavioral health treatment, drug/alcohol rates)? 
+4. How are physical health factors (lead poisoning, pollution, diet & exercise) related to mental health factors (Behavioral health treatment, drug/alcohol rates)?
 
 ### Initial Data Sources
 * https://chicagohealthatlas.org/indicators
