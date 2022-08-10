@@ -82,9 +82,16 @@ Finally, with the data gathered from all 67 (out of 284) that had city-wide cove
 4. The data shows that the less safe a person feels in their neighborhood, the less belonging they feel to their community.
 5. There is a very weak correlation between youth diet and exercise, and not enough data on youth binge drinking.
 6. After a steady level from 2000 to 2009 (and very low coverage prior to that), there was a distinct increase in indicator coverage from 2009 to 2017, but a drop-off since then, with 2020 falling back to 2012 levels.
+7. There are many well-correlated factors, but it will take more analysis to fully determine which are trivial and which are relevant or interesting.
 
 ## Conclusion
-Wrap things up.
+As visualized by out plors, we were able to get a lot out of the data. The website provided us with base visualizations, but we were able to go beyond that and dive deeper into the data. While the Chicago Health Atlas provided a lot of room for discovery, there were many gaps that we discovered as well. 
+
+Mental health and socio-economics are broad factors that are important to look at through different angles, which is what we did. We looked at composite indices, mortality data, school data, and health data all regarding neighborhoods in Chicago. 
+
+We found that bad mental health can be made worse depending on the impact school and community can have on your life. We did not find strong correlations between suicide and vacancy, or youth diet and excercise. 
+
+It seems (based on the hardship heatmap) that many neighborhoods in Chicago are getting worse, which from our perspective, means **mental health of the individual is pivotal to quality of life.** 
 ___
 ### Introduction (old readme)
 We decided to do our first data analysis project on mental health as a broad topic. We chose to study mental health due to its importance in society overall, and for  people as individuals. As residents of the Chicago area, we were particularly interested in seeing what the data says about the socio-economic environment which has shaped our lives. 
