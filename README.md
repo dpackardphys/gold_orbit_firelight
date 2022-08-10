@@ -18,6 +18,8 @@ Reintroduce our project.
 Discuss how we got from the initial idea of the project and questions to what we ended up with. How we explored the data from Chicago Health Atlas to address 
 the questions we settled on.
 
+We initially set out to explore what the data said about mental health and socio-economic factors in Chicago in general, by examining this topic from various different angles.
+
 ## Analysis
 Describe how we analyzed the data in order to create visualizations and answer questions. Final visualizations go here.
 
