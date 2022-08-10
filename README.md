@@ -73,7 +73,7 @@ With the data coverage information from the API, Douglas was able to plot the to
 
 ![Indicator Coverage over Time](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/single_year_coverage_bars.png)
 
-Finally, with the data gathered from all 67 (out of 284) that had city-wide coverage between 2010-2020, we generated a correlation matrix. Then a list of 116 indicator-pairs with r-value in the range from 0.75 to 0.95 was generated (with the upper bound chosen to exclude the near-unity correlation between count-indicators and rate-indicators which provide essentially the same data). We did not have an opportunity to look into these results in depth, but from an abitrarily chosen pair in the list we did discover that arson and liver disease mortality are well-correlated!
+Finally, with the data gathered from all 67 (out of 284) indicators that had city-wide coverage between 2010-2020, we generated a correlation matrix. Then a list of 116 indicator-pairs with r-value in the range from 0.75 to 0.95 was generated (with the upper bound chosen to exclude the near-unity correlation between count-indicators and rate-indicators which provide essentially the same data). We did not have an opportunity to look into these results in depth, but from an abitrarily chosen pair in the list we did discover that arson and liver disease mortality are well-correlated!
 
 ## Results
 1. The level of hardship has been improving, worsening, and staying the same in all neighborhoods. Contradictory to what we thought, every part of the city did not increase in the level of hardship, and some areas even improved.
