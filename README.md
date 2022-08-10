@@ -36,7 +36,7 @@ Faced with this limitation, Douglas decided to additionally try to study the cov
 Finally, having learned to use the API better, Douglas saw that it would help automate the retrieval of data across as many indicators as possible, and decided to use this to study indicator correlations more broadly by generating a correlation matrix.
 
 ## Analysis
-We all used pandas and matplotlib to analyze and visualize our data. Karina additionally worked with gmaps to plot her harship data as a heatmap over the city of Chicago, after using pandas to find the change in hardship data between the two time periods for which it was given.
+We all used pandas and matplotlib to analyze and visualize our data. Karina additionally worked with gmaps to plot her hardship data as a heatmap over the city of Chicago, after using pandas to find the change in hardship data between the two time periods for which it was given.
 
 ![Hardship Heatmap](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/hardship_heatmap_2.png)
 
