@@ -33,10 +33,16 @@ Douglas initially wanted to study the data on various physical health indicators
 
 Faced with this limitation, Douglas decided to additionally try to study the coverage of the data as a whole. Exploring the Chicago Health Atlas data further through its API, he discovered there was a top-level division entirely devoted to Data Coverage, and investigated this more. While the data here did not provide information about the geographic coverage of different indicators (i.e. which had data for all neighborhoods and which only covered some), it did provide the opportunity to analyze the time-period coverage of all the indicators.
 
-Finally, having learned to use the API better, Douglas saw that it would help automate the retrieval of data across as many indicators as possible, and decided to use this to study indicator correlations more boradly.
+Finally, having learned to use the API better, Douglas saw that it would help automate the retrieval of data across as many indicators as possible, and decided to use this to study indicator correlations more broadly.
 
 ## Analysis
-Describe how we analyzed the data in order to create visualizations and answer questions. Final visualizations go here.
+We all used pandas and matplotlib to analyze and visualize our data. Karina additionally worked with gmaps to plot her harship data as a heatmap over the city of Chicago.
+
+![Hardship Heatmap](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/hardship_heatmap_2.png)
+
+Here yellow signifies areas with no major change in hardship between the time frames, green signifies that the hardship index has gone down, and red that it has gone up. We discovered that despite our expectations, there has *not* been a uniform increase in hardship across the city, with some areas, such as Bucktown/Wicker Park shown below, in fact seeing a decrease in hardship. 
+
+![Bucktown and Wicker Heatmap](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/hardship_heatmap_1.png)
 
 ## Results
 Present answers to our questions based on visualizations and statistical analysis.
