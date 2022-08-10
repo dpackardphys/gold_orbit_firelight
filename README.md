@@ -65,7 +65,7 @@ Doug first plotted the three youth health indicators over time. While there was 
 
 ![Youth Health Indicators](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/youth_health_indicators.png)
 
-He then did a scatter plot of just these two, and plotted a linear regression over that. However, there were only seven data points to work with, and only a weak possible correlation was observed.
+He then did a scatter plot of just these two, and plotted a linear regression over that. However, there were only seven data points to work with, and only a weak possible correlation was observed (r-value ~ 0.4645).
 
 ![Youth Diet and Exercise](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/youthdietandexercise.png)
 
