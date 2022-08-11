@@ -49,7 +49,7 @@ The data on suicide mortality and vacancy was plotted together, and a linear reg
 ![Suicide and Vacancy 2011-2015](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/suicide_vacant_2011.png)
 ![Suicide and Vacancy 2015-2019](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/suicide_vacant_2019.png)
 
-Karan first plotted the household poverty and high school dropout rates together across the neighborhoods of Chicago. The peaks in the line plots of the two datasets appear to be frequently lined up, suggesting these indicators are indeed correlated with one another.
+Karan first plotted the household poverty and high school dropout rates from the year 2012 together across the neighborhoods of Chicago. The peaks in the line plots of the two datasets appear to be frequently lined up, suggesting these indicators are indeed correlated with one another.
 
 ![Household Poverty and HS Dropouts](https://github.com/dpackardphys/gold_orbit_firelight/blob/main/Images/DEEZ1.png)
 
